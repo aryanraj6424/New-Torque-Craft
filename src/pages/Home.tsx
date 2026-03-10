@@ -51,7 +51,7 @@ const Home = () => {
   {/* Shop Catalog Button */}
   <Link 
     to="/shop" 
-    className="btn-hero-blue flex items-center gap-3 px-8 py-4 text-sm uppercase tracking-widest font-bold hover:border-brand-red hover:shadow-[0_0_25px_rgba(227,30,36,0.6)] hover:bg-brand-red/10 transition-all duration-300"
+    className="btn-hero-blue flex items-center gap-3 px-8 py-4 text-sm uppercase tracking-widest font-bold transition-all duration-300 hover:bg-brand-red hover:border-brand-red hover:text-white hover:shadow-[0_0_30px_rgba(227,30,36,0.8)]"
   >
     Shop Catalog <ChevronRight size={18} />
   </Link>
@@ -59,7 +59,7 @@ const Home = () => {
   {/* Verify Authenticity Button */}
   <Link 
     to="/verify" 
-    className="btn-hero-blue flex items-center gap-3 px-8 py-4 text-sm uppercase tracking-widest font-bold hover:border-brand-red hover:shadow-[0_0_25px_rgba(227,30,36,0.6)] hover:bg-brand-red/10 transition-all duration-300"
+    className="btn-hero-blue flex items-center gap-3 px-8 py-4 text-sm uppercase tracking-widest font-bold transition-all duration-300 hover:bg-brand-red hover:border-brand-red hover:text-white hover:shadow-[0_0_30px_rgba(227,30,36,0.8)]"
   >
     Verify Authenticity
   </Link>
