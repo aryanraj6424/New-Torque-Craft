@@ -1,0 +1,136 @@
+/* @import "tailwindcss";
+
+@theme {
+  --color-brand-red: #E10600;
+  --color-brand-blue: #003366;
+  --color-navy-dark: #0A0F1E;
+  --color-navy-deep: #05070A;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Orbitron", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-navy-deep text-white antialiased;
+    background: #000000;
+  }
+}
+
+@utility glow-red {
+  box-shadow: 0 0 20px rgba(225, 6, 0, 0.5);
+}
+
+@utility glow-blue {
+  box-shadow: 0 0 20px rgba(0, 209, 255, 0.5);
+}
+
+@utility border-glow-red {
+  border: 1px solid rgba(225, 6, 0, 0.8);
+  box-shadow: inset 0 0 10px rgba(225, 6, 0, 0.2), 0 0 15px rgba(225, 6, 0, 0.4);
+}
+
+@utility border-glow-blue {
+  border: 1px solid rgba(0, 209, 255, 0.8);
+  box-shadow: inset 0 0 10px rgba(0, 209, 255, 0.2), 0 0 15px rgba(0, 209, 255, 0.4);
+}
+
+@utility metallic-card {
+  @apply bg-[#0A0F1E]/60 border border-white/10 backdrop-blur-md rounded-lg;
+}
+
+@utility btn-primary {
+  @apply bg-brand-red hover:bg-red-700 text-white font-bold py-3 px-8 rounded-md transition-all duration-300 uppercase tracking-wider glow-red;
+}
+
+@utility btn-secondary {
+  @apply border-2 border-brand-blue text-brand-blue hover:bg-brand-blue hover:text-navy-deep font-bold py-3 px-8 rounded-md transition-all duration-300 uppercase tracking-wider glow-blue;
+}
+
+@utility btn-hero-blue {
+  @apply border-2 border-brand-blue bg-brand-blue/10 text-white font-bold py-3 px-8 rounded-md transition-all duration-300 uppercase tracking-wider glow-blue hover:bg-brand-blue/20;
+}
+
+@utility btn-hero-red {
+  @apply border-2 border-brand-red bg-brand-red/10 text-white font-bold py-3 px-8 rounded-md transition-all duration-300 uppercase tracking-wider glow-red hover:bg-brand-red/20;
+}
+ */
+
+
+ @import "tailwindcss";
+
+@theme {
+  --color-brand-red: #E31E24;
+  --color-brand-blue: #003366;
+  --color-navy-dark: #0A0F1E;
+  
+  /* UPDATED: Client bottom color #070A10 */
+  --color-navy-deep: #070A10; 
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Orbitron", sans-serif;
+}
+
+@layer base {
+  body {
+    /* FIXED: min-h-screen ke aage @apply lagaya gaya hai */
+    @apply text-white antialiased min-h-screen;
+    
+    /* UPDATED: Industrial Charcoal Gradient */
+    background: linear-gradient(to bottom, #0B0F18 0%, #070A10 100%) fixed;
+    position: relative;
+  }
+
+  /* UPDATED: Brushed Metal Texture Overlay (4% opacity) */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image: url('https://www.transparenttextures.com/patterns/brushed-alum.png');
+    opacity: 0.04; 
+    mix-blend-mode: soft-light;
+    pointer-events: none;
+  }
+}
+
+@utility glow-red {
+  box-shadow: 0 0 20px rgba(225, 6, 0, 0.5);
+}
+
+@utility glow-blue {
+  box-shadow: 0 0 20px rgba(0, 209, 255, 0.5);
+}
+
+@utility border-glow-red {
+  /* border: 1px solid rgba(225, 6, 0, 0.8);
+  box-shadow: inset 0 0 10px rgba(225, 6, 0, 0.2), 0 0 15px rgba(225, 6, 0, 0.4); */
+  border: 4px solid #E31E24; /* Thick border as requested */
+  box-shadow: 0 0 25px rgba(227, 30, 36, 0.6); /* Stronger glow */
+  transition: all 0.3s ease-in-out;
+}
+
+@utility border-glow-blue {
+  border: 1px solid rgba(0, 209, 255, 0.8);
+  box-shadow: inset 0 0 10px rgba(0, 209, 255, 0.2), 0 0 15px rgba(0, 209, 255, 0.4);
+}
+
+@utility metallic-card {
+  @apply bg-[#0A0F1E]/40 border border-white/5 backdrop-blur-md rounded-lg;
+}
+
+@utility btn-primary {
+  @apply bg-brand-red hover:bg-red-700 text-white font-bold py-3 px-8 rounded-md transition-all duration-300 uppercase tracking-wider glow-red;
+}
+
+@utility btn-secondary {
+  @apply border-2 border-brand-blue text-brand-blue hover:bg-brand-blue hover:text-navy-deep font-bold py-3 px-8 rounded-md transition-all duration-300 uppercase tracking-wider glow-blue;
+}
+
+@utility btn-hero-blue {
+  @apply border-2 border-brand-blue bg-brand-blue/10 text-white font-bold py-3 px-8 rounded-md transition-all duration-300 uppercase tracking-wider glow-blue hover:bg-brand-blue/20;
+}
+
+@utility btn-hero-red {
+  @apply border-2 border-brand-red bg-brand-red/10 text-white font-bold py-3 px-8 rounded-md transition-all duration-300 uppercase tracking-wider glow-red hover:bg-brand-red/20;
+}

@@ -1,0 +1,952 @@
+[
+  {
+    "id": "tc-hs-cum-59-12v-01",
+    "name": "Head Stud Kit – Cummins 5.9L 12V (1994–1998)",
+    "sku": "TC-HS-CUM-59-12V-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Cummins",
+    "compatibility": ["Ram 2500 (1994-1998)", "Ram 3500 (1994-1998)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=1",
+    "description": "Premium head stud kit for Cummins 5.9L 12V engines. Engineered for high-boost applications and maximum clamping force.",
+    "specs": {
+      "Engine": "12V Cummins",
+      "Displacement": "5.9L",
+      "Years": "1994-1998",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "12V"
+  },
+  {
+    "id": "tc-ms-cum-59-12v-01",
+    "name": "Main Stud Kit – Cummins 5.9L 12V (1994–1998)",
+    "sku": "TC-MS-CUM-59-12V-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Cummins",
+    "compatibility": ["Ram 2500 (1994-1998)", "Ram 3500 (1994-1998)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=2",
+    "description": "High-strength main stud kit for Cummins 5.9L 12V. Provides superior bottom-end stability.",
+    "specs": {
+      "Engine": "12V Cummins",
+      "Displacement": "5.9L",
+      "Years": "1994-1998",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "12V"
+  },
+  {
+    "id": "tc-hs-cum-59-24v-vp-01",
+    "name": "Head Stud Kit – Cummins 5.9L 24V VP44 (1998.5–2002)",
+    "sku": "TC-HS-CUM-59-24V-VP-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Cummins",
+    "compatibility": ["Ram 2500 (1998.5-2002)", "Ram 3500 (1998.5-2002)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=3",
+    "description": "Optimized for the VP44 Cummins engines. These studs offer the reliability needed for performance tuning.",
+    "specs": {
+      "Engine": "24V VP44 Cummins",
+      "Displacement": "5.9L",
+      "Years": "1998.5-2002",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "24V VP44"
+  },
+  {
+    "id": "tc-ms-cum-59-24v-vp-01",
+    "name": "Torque Craft Main Stud Kit – Cummins 5.9L 24V VP44 (1998.5–2002)",
+    "sku": "TC-MS-CUM-59-24V-VP-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Cummins",
+    "compatibility": ["Ram 2500 (1998.5-2002)", "Ram 3500 (1998.5-2002)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=4",
+    "description": "Main stud kit for 24V VP44 Cummins. Essential for high-horsepower builds.",
+    "specs": {
+      "Engine": "24V VP44 Cummins",
+      "Displacement": "5.9L",
+      "Years": "1998.5-2002",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "24V VP44"
+  },
+  {
+    "id": "tc-hs-cum-59-24v-cr-01",
+    "name": "Head Stud Kit – Cummins 5.9L 24V Common Rail (2003–2007)",
+    "sku": "TC-HS-CUM-59-24V-CR-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Cummins",
+    "compatibility": ["Ram 2500 (2003-2007)", "Ram 3500 (2003-2007)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=5",
+    "description": "Head stud kit for 5.9L Common Rail Cummins engines. Provides exceptional clamping force for high performance.",
+    "specs": {
+      "Engine": "24V Common Rail Cummins",
+      "Displacement": "5.9L",
+      "Years": "2003-2007",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "24V Common Rail"
+  },
+  {
+    "id": "tc-ms-cum-59-24v-cr-01",
+    "name":"Main Stud Kit – Cummins 5.9L 24V Common Rail (2003–2007)",
+    "sku": "TC-MS-CUM-59-24V-CR-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Cummins",
+    "compatibility": ["Ram 2500 (2003-2007)", "Ram 3500 (2003-2007)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=6",
+    "description": "Main stud kit for 5.9L Common Rail Cummins engines. Essential for bottom-end reinforcement.",
+    "specs": {
+      "Engine": "24V Common Rail Cummins",
+      "Displacement": "5.9L",
+      "Years": "2003-2007",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "24V Common Rail"
+  },
+  {
+    "id": "tc-hs-cum-67-01",
+    "name": "Head Stud Kit – Cummins 6.7L 24V (2007.5–2024)",
+    "sku": "TC-HS-CUM-67-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Cummins",
+    "compatibility": ["Ram 2500 (2007.5-2024)", "Ram 3500 (2007.5-2024)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=7",
+    "description": "High-performance head stud kit for 6.7L Cummins engines, covering model years up to 2024.",
+    "specs": {
+      "Engine": "6.7L Cummins",
+      "Displacement": "6.7L",
+      "Years": "2007.5-2024",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "24V Common Rail"
+  },
+  {
+    "id": "tc-ms-cum-67-01",
+    "name": "Main Stud Kit – Cummins 6.7L 24V (2007.5–2024)",
+    "sku": "TC-MS-CUM-67-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Cummins",
+    "compatibility": ["Ram 2500 (2007.5-2024)", "Ram 3500 (2007.5-2024)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=8",
+    "description": "Main stud kit for 6.7L Cummins engines. Designed for extreme durability in heavy-duty applications.",
+    "specs": {
+      "Engine": "6.7L Cummins",
+      "Displacement": "6.7L",
+      "Years": "2007.5-2024",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "24V Common Rail"
+  },
+  {
+    "id": "tc-hs-dmax-lb7-01",
+    "name": "Head Stud Kit – Duramax LB7 (2001–2004)",
+    "sku": "TC-HS-DMAX-LB7-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Duramax",
+    "compatibility": ["Silverado 2500HD/3500HD (2001-2004)", "Sierra 2500HD/3500HD (2001-2004)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=9",
+    "description": "Reliable head stud kit for LB7 Duramax engines to prevent head gasket failure.",
+    "specs": {
+      "Engine": "LB7 Duramax",
+      "Displacement": "6.6L",
+      "Years": "2001-2004",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "LB7"
+  },
+  {
+    "id": "tc-ms-dmax-lb7-01",
+    "name": "Main Stud Kit – Duramax LB7 (2001–2004)",
+    "sku": "TC-MS-DMAX-LB7-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Duramax",
+    "compatibility": ["Silverado 2500HD/3500HD (2001-2004)", "Sierra 2500HD/3500HD (2001-2004)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=10",
+    "description": "Main stud kit for LB7 Duramax engines, ensuring block integrity under load.",
+    "specs": {
+      "Engine": "LB7 Duramax",
+      "Displacement": "6.6L",
+      "Years": "2001-2004",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "LB7"
+  },
+  {
+    "id": "tc-hs-dmax-lly-01",
+    "name": "Head Stud Kit – Duramax LLY (2004.5–2005)",
+    "sku": "TC-HS-DMAX-LLY-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Duramax",
+    "compatibility": ["Silverado/Sierra 2500HD/3500HD (2004.5-2005)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=11",
+    "description": "Head stud kit specifically engineered for the LLY Duramax engine series.",
+    "specs": {
+      "Engine": "LLY Duramax",
+      "Displacement": "6.6L",
+      "Years": "2004.5-2005",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "LLY"
+  },
+  {
+    "id": "tc-ms-dmax-lly-01",
+    "name": "Main Stud Kit – Duramax LLY (2004.5–2005)",
+    "sku": "TC-MS-DMAX-LLY-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Duramax",
+    "compatibility": ["Silverado/Sierra 2500HD/3500HD (2004.5-2005)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=12",
+    "description": "High-strength main studs for LLY Duramax engines to support high power builds.",
+    "specs": {
+      "Engine": "LLY Duramax",
+      "Displacement": "6.6L",
+      "Years": "2004.5-2005",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "LLY"
+  },
+  {
+    "id": "tc-hs-dmax-lbz-01",
+    "name": "Head Stud Kit – Duramax LBZ (2006–2007)",
+    "sku": "TC-HS-DMAX-LBZ-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Duramax",
+    "compatibility": ["Silverado/Sierra 2500HD/3500HD (2006-2007)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=13",
+    "description": "Head stud kit for the highly popular LBZ Duramax, providing superior clamping.",
+    "specs": {
+      "Engine": "LBZ Duramax",
+      "Displacement": "6.6L",
+      "Years": "2006-2007",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "LBZ"
+  },
+  {
+    "id": "tc-ms-dmax-lbz-01",
+    "name": "Main Stud Kit – Duramax LBZ (2006–2007)",
+    "sku": "TC-MS-DMAX-LBZ-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Duramax",
+    "compatibility": ["Silverado/Sierra 2500HD/3500HD (2006-2007)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=14",
+    "description": "Robust main stud kit for LBZ Duramax engines.",
+    "specs": {
+      "Engine": "LBZ Duramax",
+      "Displacement": "6.6L",
+      "Years": "2006-2007",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "LBZ"
+  },
+  {
+    "id": "tc-hs-dmax-lmm-01",
+    "name": "Head Stud Kit – Duramax LMM (2007.5–2010)",
+    "sku": "TC-HS-DMAX-LMM-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Duramax",
+    "compatibility": ["Silverado/Sierra 2500HD/3500HD (2007.5-2010)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=15",
+    "description": "Designed for LMM Duramax engines, these studs provide the strength needed for tuned applications.",
+    "specs": {
+      "Engine": "LMM Duramax",
+      "Displacement": "6.6L",
+      "Years": "2007.5-2010",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "LMM"
+  },
+  {
+    "id": "tc-ms-dmax-lmm-01",
+    "name": "Main Stud Kit – Duramax LMM (2007.5–2010)",
+    "sku": "TC-MS-DMAX-LMM-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Duramax",
+    "compatibility": ["Silverado/Sierra 2500HD/3500HD (2007.5-2010)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=16",
+    "description": "Main stud kit for LMM Duramax, ensuring bottom-end reliability.",
+    "specs": {
+      "Engine": "LMM Duramax",
+      "Displacement": "6.6L",
+      "Years": "2007.5-2010",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "LMM"
+  },
+  {
+    "id": "tc-hs-dmax-lml-01",
+    "name": "Head Stud Kit – Duramax LML (2011–2016)",
+    "sku": "TC-HS-DMAX-LML-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Duramax",
+    "compatibility": ["Silverado/Sierra 2500HD/3500HD (2011-2016)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=17",
+    "description": "High-tensile head stud kit for LML Duramax engines.",
+    "specs": {
+      "Engine": "LML Duramax",
+      "Displacement": "6.6L",
+      "Years": "2011-2016",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "LML"
+  },
+  {
+    "id": "tc-ms-dmax-lml-01",
+    "name": "Main Stud Kit – Duramax LML (2011–2016)",
+    "sku": "TC-MS-DMAX-LML-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Duramax",
+    "compatibility": ["Silverado/Sierra 2500HD/3500HD (2011-2016)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=18",
+    "description": "Main stud kit for LML Duramax engines.",
+    "specs": {
+      "Engine": "LML Duramax",
+      "Displacement": "6.6L",
+      "Years": "2011-2016",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "LML"
+  },
+  {
+    "id": "tc-hs-dmax-l5p-01",
+    "name": "Head Stud Kit – Duramax L5P (2017–2024)",
+    "sku": "TC-HS-DMAX-L5P-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Duramax",
+    "compatibility": ["Silverado/Sierra 2500HD/3500HD (2017-2024)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=19",
+    "description": "Advanced head stud kit for the latest L5P Duramax engines.",
+    "specs": {
+      "Engine": "L5P Duramax",
+      "Displacement": "6.6L",
+      "Years": "2017-2024",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "L5P"
+  },
+  {
+    "id": "tc-ms-dmax-l5p-01",
+    "name": "Main Stud Kit – Duramax L5P (2017–2024)",
+    "sku": "TC-MS-DMAX-L5P-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Duramax",
+    "compatibility": ["Silverado/Sierra 2500HD/3500HD (2017-2024)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=20",
+    "description": "Main stud kit for L5P Duramax engines.",
+    "specs": {
+      "Engine": "L5P Duramax",
+      "Displacement": "6.6L",
+      "Years": "2017-2024",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "L5P"
+  },
+  {
+    "id": "tc-hs-ps-73-01",
+    "name": "Head Stud Kit – Powerstroke 7.3L (1994–2003)",
+    "sku": "TC-HS-PS-73-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Powerstroke",
+    "compatibility": ["F-250 (1994-2003)", "F-350 (1994-2003)", "Excursion (1999-2003)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=21",
+    "description": "Indestructible head stud kit for the legendary 7.3L Powerstroke.",
+    "specs": {
+      "Engine": "7.3L Powerstroke",
+      "Displacement": "7.3L",
+      "Years": "1994-2003",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "7.3"
+  },
+  {
+    "id": "tc-ms-ps-73-01",
+    "name": "Main Stud Kit – Powerstroke 7.3L (1994–2003)",
+    "sku": "TC-MS-PS-73-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Powerstroke",
+    "compatibility": ["F-250 (1994-2003)", "F-350 (1994-2003)", "Excursion (1999-2003)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=22",
+    "description": "Main stud kit for 7.3L Powerstroke engines.",
+    "specs": {
+      "Engine": "7.3L Powerstroke",
+      "Displacement": "7.3L",
+      "Years": "1994-2003",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "7.3"
+  },
+  {
+    "id": "tc-hs-ps-60-01",
+    "name": "Head Stud Kit – Powerstroke 6.0L (2003–2007)",
+    "sku": "TC-HS-PS-60-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Powerstroke",
+    "compatibility": ["F-250 (2003-2007)", "F-350 (2003-2007)", "Excursion (2003-2005)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=23",
+    "description": "Essential 'bulletproofing' head stud kit for 6.0L Powerstroke engines.",
+    "specs": {
+      "Engine": "6.0L Powerstroke",
+      "Displacement": "6.0L",
+      "Years": "2003-2007",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "6"
+  },
+  {
+    "id": "tc-ms-ps-60-01",
+    "name": "Main Stud Kit – Powerstroke 6.0L (2003–2007)",
+    "sku": "TC-MS-PS-60-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Powerstroke",
+    "compatibility": ["F-250 (2003-2007)", "F-350 (2003-2007)", "Excursion (2003-2005)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=24",
+    "description": "Main stud kit for 6.0L Powerstroke engines.",
+    "specs": {
+      "Engine": "6.0L Powerstroke",
+      "Displacement": "6.0L",
+      "Years": "2003-2007",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "6"
+  },
+  {
+    "id": "tc-hs-ps-67-01",
+    "name": "Head Stud Kit – Powerstroke 6.7L (2011–2024)",
+    "sku": "TC-HS-PS-67-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Powerstroke",
+    "compatibility": ["F-250/F-350/F-450/F-550 Super Duty (2011-2024)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=25",
+    "description": "Ultimate head stud kit for modern 6.7L Powerstroke diesel engines.",
+    "specs": {
+      "Engine": "6.7L Powerstroke",
+      "Displacement": "6.7L",
+      "Years": "2011-2024",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "6.7"
+  },
+  {
+    "id": "tc-ms-ps-67-01",
+    "name": "Main Stud Kit – Powerstroke 6.7L (2011–2024)",
+    "sku": "TC-MS-PS-67-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Powerstroke",
+    "compatibility": ["F-250/F-350/F-450/F-550 Super Duty (2011-2024)"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=26",
+    "description": "Main stud kit for 6.7L Powerstroke engines.",
+    "specs": {
+      "Engine": "6.7L Powerstroke",
+      "Displacement": "6.7L",
+      "Years": "2011-2024",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "6.7"
+  },
+  {
+    "id": "tc-hs-toy-1hd-fte-01",
+    "name": "Head Stud Kit – Toyota 1HD-FTE (1998–2007)",
+    "sku": "TC-HS-TOY-1HD-FTE-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Toyota",
+    "compatibility": ["Land Cruiser HDJ100/105"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=27",
+    "description": "High-strength head stud kit for the 1HD-FTE Turbo Diesel engine.",
+    "specs": {
+      "Engine": "1HD-FTE",
+      "Displacement": "4.2L",
+      "Years": "1998-2007",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "1HD-FTE"
+  },
+  {
+    "id": "tc-ms-toy-1hd-fte-01",
+    "name": "Main Stud Kit – Toyota 1HD-FTE (1998–2007)",
+    "sku": "TC-MS-TOY-1HD-FTE-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Toyota",
+    "compatibility": ["Land Cruiser HDJ100/105"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=28",
+    "description": "Main stud kit for the 1HD-FTE engine.",
+    "specs": {
+      "Engine": "1HD-FTE",
+      "Displacement": "4.2L",
+      "Years": "1998-2007",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "1HD-FTE"
+  },
+  {
+    "id": "tc-hs-toy-1hz-01",
+    "name": "Head Stud Kit – Toyota 1HZ (1990–2007)",
+    "sku": "TC-HS-TOY-1HZ-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Toyota",
+    "compatibility": ["Land Cruiser HZJ70/80/105"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=29",
+    "description": "Durable head stud kit for Toyota 1HZ naturally aspirated engines.",
+    "specs": {
+      "Engine": "1HZ",
+      "Displacement": "4.2L",
+      "Years": "1990-2007",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "1HZ"
+  },
+  {
+    "id": "tc-ms-toy-1hz-01",
+    "name": "Main Stud Kit – Toyota 1HZ (1990–2007)",
+    "sku": "TC-MS-TOY-1HZ-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Toyota",
+    "compatibility": ["Land Cruiser HZJ70/80/105"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=30",
+    "description": "Main stud kit for Toyota 1HZ engines.",
+    "specs": {
+      "Engine": "1HZ",
+      "Displacement": "4.2L",
+      "Years": "1990-2007",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "1HZ"
+  },
+  {
+    "id": "tc-hs-toy-1kd-ftv-01",
+    "name": "Head Stud Kit – Toyota 1KD-FTV 3.0 (2001–2015)",
+    "sku": "TC-HS-TOY-1KD-FTV-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Toyota",
+    "compatibility": ["Hilux", "Prado", "Fortuner"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=31",
+    "description": "Performance head studs for the Toyota 1KD-FTV D-4D engine.",
+    "specs": {
+      "Engine": "1KD-FTV",
+      "Displacement": "3.0L",
+      "Years": "2001-2015",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "1KD-FTV"
+  },
+  {
+    "id": "tc-ms-toy-1kd-ftv-01",
+    "name": "Main Stud Kit – Toyota 1KD-FTV 3.0 (2001–2015)",
+    "sku": "TC-MS-TOY-1KD-FTV-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Toyota",
+    "compatibility": ["Hilux", "Prado", "Fortuner"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=32",
+    "description": "Main stud kit for Toyota 1KD-FTV engines.",
+    "specs": {
+      "Engine": "1KD-FTV",
+      "Displacement": "3.0L",
+      "Years": "2001-2015",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "1KD-FTV"
+  },
+  {
+    "id": "tc-hs-toy-1kz-te-01",
+    "name": "Head Stud Kit – Toyota 1KZ-TE 3.0 (1993–2006)",
+    "sku": "TC-HS-TOY-1KZ-TE-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Toyota",
+    "compatibility": ["Hilux", "Prado", "HiAce"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=33",
+    "description": "High-quality head stud kit for Toyota 1KZ-TE engines.",
+    "specs": {
+      "Engine": "1KZ-TE",
+      "Displacement": "3.0L",
+      "Years": "1993-2006",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "1KZ-TE"
+  },
+  {
+    "id": "tc-ms-toy-1kz-te-01",
+    "name": "Main Stud Kit – Toyota 1KZ-TE 3.0 (1993–2006)",
+    "sku": "TC-MS-TOY-1KZ-TE-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Toyota",
+    "compatibility": ["Hilux", "Prado", "HiAce"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=34",
+    "description": "Main stud kit for Toyota 1KZ-TE engines.",
+    "specs": {
+      "Engine": "1KZ-TE",
+      "Displacement": "3.0L",
+      "Years": "1993-2006",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "1KZ-TE"
+  },
+  {
+    "id": "tc-hs-nis-td42-01",
+    "name": "Head Stud Kit – Nissan TD42 (1987–2007)",
+    "sku": "TC-HS-NIS-TD42-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Nissan",
+    "compatibility": ["Patrol/Safari Y60/Y61"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=35",
+    "description": "Rugged head stud kit for Nissan TD42 engines, perfect for turbo conversions.",
+    "specs": {
+      "Engine": "TD42",
+      "Displacement": "4.2L",
+      "Years": "1987-2007",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "TD42"
+  },
+  {
+    "id": "tc-ms-nis-td42-01",
+    "name": "Main Stud Kit – Nissan TD42 (1987–2007)",
+    "sku": "TC-MS-NIS-TD42-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Nissan",
+    "compatibility": ["Patrol/Safari Y60/Y61"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=36",
+    "description": "Main stud kit for Nissan TD42 engines.",
+    "specs": {
+      "Engine": "TD42",
+      "Displacement": "4.2L",
+      "Years": "1987-2007",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "TD42"
+  },
+  {
+    "id": "tc-hs-isu-4jj1-01",
+    "name": "Head Stud Kit – Isuzu 4JJ1 3.0 (Global)",
+    "sku": "TC-HS-ISU-4JJ1-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Isuzu",
+    "compatibility": ["D-Max", "MU-X", "Holden Colorado"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=37",
+    "description": "Heavy duty head stud kit for Isuzu 4JJ1 global diesel engines.",
+    "specs": {
+      "Engine": "4JJ1",
+      "Displacement": "3.0L",
+      "Years": "Varies",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "4JJ1"
+  },
+  {
+    "id": "tc-ms-isu-4jj1-01",
+    "name": "Main Stud Kit – Isuzu 4JJ1 3.0 (Global)",
+    "sku": "TC-MS-ISU-4JJ1-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Isuzu",
+    "compatibility": ["D-Max", "MU-X", "Holden Colorado"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=38",
+    "description": "Main stud kit for Isuzu 4JJ1 engines.",
+    "specs": {
+      "Engine": "4JJ1",
+      "Displacement": "3.0L",
+      "Years": "Varies",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "4JJ1"
+  },
+  {
+    "id": "tc-hs-mit-4m40-01",
+    "name": "Head Stud Kit – Mitsubishi 4M40 2.8 (1994–2006)",
+    "sku": "TC-HS-MIT-4M40-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Mitsubishi",
+    "compatibility": ["Pajero", "Delica", "Triton"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=39",
+    "description": "Precision head stud kit for Mitsubishi 4M40 engines.",
+    "specs": {
+      "Engine": "4M40",
+      "Displacement": "2.8L",
+      "Years": "1994-2006",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "4M40"
+  },
+  {
+    "id": "tc-ms-mit-4m40-01",
+    "name": "Main Stud Kit – Mitsubishi 4M40 2.8 (1994–2006)",
+    "sku": "TC-MS-MIT-4M40-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Mitsubishi",
+    "compatibility": ["Pajero", "Delica", "Triton"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=40",
+    "description": "Main stud kit for Mitsubishi 4M40 engines.",
+    "specs": {
+      "Engine": "4M40",
+      "Displacement": "2.8L",
+      "Years": "1994-2006",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "4M40"
+  },
+  {
+    "id": "tc-hs-mit-4d56-01",
+    "name": "Head Stud Kit – Mitsubishi 4D56 2.5 (Global)",
+    "sku": "TC-HS-MIT-4D56-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Mitsubishi",
+    "compatibility": ["Triton", "L200", "Pajero"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=41",
+    "description": "Head stud kit for the widely used Mitsubishi 4D56 engine.",
+    "specs": {
+      "Engine": "4D56",
+      "Displacement": "2.5L",
+      "Years": "Varies",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "4D56"
+  },
+  {
+    "id": "tc-ms-mit-4d56-01",
+    "name": "Main Stud Kit – Mitsubishi 4D56 2.5 (Global)",
+    "sku": "TC-MS-MIT-4D56-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Mitsubishi",
+    "compatibility": ["Triton", "L200", "Pajero"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=42",
+    "description": "Main stud kit for Mitsubishi 4D56 engines.",
+    "specs": {
+      "Engine": "4D56",
+      "Displacement": "2.5L",
+      "Years": "Varies",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "4D56"
+  },
+  {
+    "id": "tc-hs-sub-ej25-t-01",
+    "name": "Head Stud Kit – Subaru EJ25 Turbo (WRX/STI)",
+    "sku": "TC-HS-SUB-EJ25-T-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Subaru",
+    "compatibility": ["WRX", "STI"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=43",
+    "description": "Crucial head stud kit for Subaru EJ25 Turbo engines to handle boost.",
+    "specs": {
+      "Engine": "EJ25 Turbo",
+      "Displacement": "2.5L",
+      "Years": "Varies",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "EJ25 Turbo"
+  },
+  {
+    "id": "tc-ms-sub-ej25-t-01",
+    "name": "Main Stud Kit – Subaru EJ25 Turbo (WRX/STI)",
+    "sku": "TC-MS-SUB-EJ25-T-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Subaru",
+    "compatibility": ["WRX", "STI"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=44",
+    "description": "Main stud kit for Subaru EJ25 Turbo engines.",
+    "specs": {
+      "Engine": "EJ25 Turbo",
+      "Displacement": "2.5L",
+      "Years": "Varies",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "EJ25 Turbo"
+  },
+  {
+    "id": "tc-hs-toy-2jz-01",
+    "name": "Head Stud Kit – Toyota 2JZ (GTE/GE)",
+    "sku": "TC-HS-TOY-2JZ-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Toyota",
+    "compatibility": ["Supra", "Soarer", "Aristo"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=45",
+    "description": "The standard head stud kit for high-horsepower Toyota 2JZ builds.",
+    "specs": {
+      "Engine": "2JZ-GTE / 2JZ-GE",
+      "Displacement": "3.0L",
+      "Years": "Varies",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "2JZ"
+  },
+  {
+    "id": "tc-ms-toy-2jz-01",
+    "name": "Main Stud Kit – Toyota 2JZ (GTE/GE)",
+    "sku": "TC-MS-TOY-2JZ-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Toyota",
+    "compatibility": ["Supra", "Soarer", "Aristo"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=46",
+    "description": "Main stud kit for Toyota 2JZ engines.",
+    "specs": {
+      "Engine": "2JZ-GTE / 2JZ-GE",
+      "Displacement": "3.0L",
+      "Years": "Varies",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "2JZ"
+  },
+  {
+    "id": "tc-hs-nis-rb26-01",
+    "name": "Head Stud Kit – Nissan RB26",
+    "sku": "TC-HS-NIS-RB26-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Nissan",
+    "compatibility": ["Skyline GT-R"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=47",
+    "description": "Premium head stud kit for Nissan RB26DETT engines.",
+    "specs": {
+      "Engine": "RB26DETT",
+      "Displacement": "2.6L",
+      "Years": "Varies",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "RB26"
+  },
+  {
+    "id": "tc-ms-nis-rb26-01",
+    "name": "Main Stud Kit – Nissan RB26",
+    "sku": "TC-MS-NIS-RB26-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "Nissan",
+    "compatibility": ["Skyline GT-R"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=48",
+    "description": "Main stud kit for Nissan RB26 engines.",
+    "specs": {
+      "Engine": "RB26DETT",
+      "Displacement": "2.6L",
+      "Years": "Varies",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "RB26"
+  },
+  {
+    "id": "tc-hs-bmw-n54-01",
+    "name": "Head Stud Kit – BMW N54 (2006–2010)",
+    "sku": "TC-HS-BMW-N54-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "BMW",
+    "compatibility": ["335i", "135i", "535i", "Z4 35i"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=49",
+    "description": "High performance head stud kit for BMW N54 Twin Turbo engines.",
+    "specs": {
+      "Engine": "N54",
+      "Displacement": "3.0L",
+      "Years": "2006-2010",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "N54"
+  },
+  {
+    "id": "tc-ms-bmw-n54-01",
+    "name": "Main Stud Kit – BMW N54 (2006–2010)",
+    "sku": "TC-MS-BMW-N54-01",
+    "category": "Engine Components",
+    "price": 299.00,
+    "stock": 25,
+    "manufacturer": "BMW",
+    "compatibility": ["335i", "135i", "535i", "Z4 35i"],
+    "image": "https://loremflickr.com/800/600/engine,part,metal?lock=50",
+    "description": "Main stud kit for BMW N54 engines.",
+    "specs": {
+      "Engine": "N54",
+      "Displacement": "3.0L",
+      "Years": "2006-2010",
+      "Material": "8740 Chrome Moly"
+    },
+    "engineCode": "N54"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "serial": "TC-QR-12345",
+    "activated": true,
+    "productName": "Cummins 5.9L 24V Performance Long Block",
+    "activationDate": "2024-01-15",
+    "expiryDate": "2027-01-15",
+    "customerName": "John Doe"
+  },
+  {
+    "serial": "TC-QR-67890",
+    "activated": false,
+    "productName": "Duramax LB7 Performance Engine",
+    "activationDate": null,
+    "expiryDate": null,
+    "customerName": null
+  }
+]
