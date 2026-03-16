@@ -686,6 +686,14 @@ const Login = () => {
     }
   };
 
+  const getPostLoginPath = (role: UserRole) => {
+    // Ensure the user lands on the correct dashboard based on their role.
+    if (role === 'super_admin' || role === 'admin') return '/admin/super-admin';
+    if (role === 'dealer') return '/admin/dealer';
+    if (role === 'distributor') return '/admin/distributor';
+    return '/';
+  };
+
   const handleVerifyMFA = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
@@ -698,10 +706,8 @@ const Login = () => {
         // Step 1: Login with the correct admin role
         await login(email, selectedRole);
 
-        // Step 2: Route to the Master Dashboard (SuperAdminUI.tsx)
-        // Ensure your Route for '/admin' points to SuperAdminUI component
-        navigate('/admin');
-        
+        // Step 2: Route to the correct dashboard for the role
+        navigate(getPostLoginPath(selectedRole));
       } else {
         setError('Invalid MFA code. Use 123456 for demo.');
       }
@@ -719,8 +725,8 @@ const Login = () => {
     try {
       if (await verifyOTP(code)) {
         await login(email, selectedRole);
-        // Dealers/Distributors also go to business dashboard
-        navigate('/admin'); 
+        // Dealers/Distributors go to their respective business dashboard
+        navigate(getPostLoginPath(selectedRole));
       } else {
         setError('Invalid OTP. Use 654321 for demo.');
       }
