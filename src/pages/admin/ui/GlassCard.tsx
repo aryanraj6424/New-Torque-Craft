@@ -11,17 +11,20 @@ interface GlassCardProps {
   children: React.ReactNode;
   className?: string;
   glow?: boolean;
+  onClick?: React.MouseEventHandler<HTMLDivElement>;
 }
 
-export const GlassCard: React.FC<GlassCardProps> = ({ children, className, glow = false }) => {
+export const GlassCard: React.FC<GlassCardProps> = ({ children, className, glow = false, onClick }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
+      onClick={onClick}
       className={cn(
         "relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl",
         glow && "shadow-[0_0_20px_rgba(0,242,255,0.1)] border-cyan-500/20",
+        onClick && "cursor-pointer",
         className
       )}
     >

@@ -1,11 +1,10 @@
-
-
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { GlassCard } from "../../../ui/GlassCard";
 import { 
   Store, ChevronRight, Search, MapPin, 
   Users, TrendingUp, Activity, ShieldCheck 
 } from "lucide-react";
+import { distributors } from "../../../../../data/distributors";
 
 // 1. StatTile Component (Internal Helper)
 const StatTile = ({ label, value, icon, color = "text-white" }: any) => (
@@ -19,27 +18,40 @@ const StatTile = ({ label, value, icon, color = "text-white" }: any) => (
 );
 
 // 2. Main DealerList Component
-const DealerList = ({ onDealerSelect }: { onDealerSelect: (id: string) => void }) => {
+const DealerList = ({
+  onDealerSelect,
+  distributorId,
+  area,
+}: {
+  onDealerSelect: (id: string) => void;
+  distributorId: string;
+  area?: string;
+}) => {
   const [searchTerm, setSearchTerm] = useState("");
 
-  const dealers = [
-    { id: "D101", name: "Cyber Torque Motors", location: "Delhi", activeWarranties: 150, customers: 1200, status: "High Performance" },
-    { id: "D102", name: "Premium Engines HQ", location: "Bangalore", activeWarranties: 85, customers: 850, status: "Stable" },
-    { id: "D103", name: "Elite Torque Hub", location: "Mumbai", activeWarranties: 210, customers: 1540, status: "Top Rated" },
-    { id: "D104", name: "Apex Auto Spares", location: "Chennai", activeWarranties: 45, customers: 310, status: "Growing" },
-  ];
+  const dealerData = useMemo(() => {
+    const distributor = distributors.find(d => d.id === distributorId);
+    return distributor ? distributor.dealers : [];
+  }, [distributorId]);
 
-  const filteredDealers = dealers.filter(dealer => 
-    dealer.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
-    dealer.location.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredDealers = useMemo(() => {
+    return dealerData.filter(dealer => {
+      const matchesArea = area ? dealer.area.toLowerCase() === area.toLowerCase() : true;
+      const matchesSearch = 
+        dealer.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
+        dealer.location.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        dealer.area.toLowerCase().includes(searchTerm.toLowerCase());
+      
+      return matchesArea && matchesSearch;
+    });
+  }, [dealerData, area, searchTerm]);
 
   return (
     <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
       
       {/* TOP MINI STATS */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <StatTile label="Global Partners" value={dealers.length} icon={<Store size={14}/>} />
+        <StatTile label="Total Dealers" value={dealerData.length} icon={<Store size={14}/>} />
         <StatTile label="Active Warranties" value="490" icon={<ShieldCheck size={14}/>} color="text-brand-red" />
         <StatTile label="Network Reach" value="24 Cities" icon={<MapPin size={14}/>} />
         <StatTile label="Avg. Performance" value="94%" icon={<Activity size={14}/>} color="text-emerald-500" />
@@ -101,7 +113,7 @@ const DealerList = ({ onDealerSelect }: { onDealerSelect: (id: string) => void }
                         <MapPin size={10} /> {dealer.location}
                       </div>
                       <div className="flex items-center gap-1.5 text-[9px] text-slate-500 uppercase font-black tracking-widest">
-                        <Users size={10} /> {dealer.customers} UNITS
+                        <Users size={10} /> {dealer.customers.length} Customers
                       </div>
                       <div className="flex items-center gap-1.5 text-[9px] text-brand-red uppercase font-black tracking-[0.2em]">
                         <TrendingUp size={10} /> {dealer.status}
