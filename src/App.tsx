@@ -20,13 +20,14 @@ import Checkout from './pages/Checkout';
 
 // --- Updated Admin Imports ---
 import Dealer from './pages/admin/dealer/Dealer';
+
 import Distributor from './pages/admin/distributor/Distributor';
 import SuperAdmin from './pages/admin/superAdmin/SuperAdmin';
 // ----------------------------
 
 import Login from './pages/Login';
 import Signup from './pages/Signup';
-import CustomerDashboard from './pages/CustomerDashboard';
+import CustomerDashboard from './pages/customers/CustomerDashboard';
 import About from './pages/About';
 import OurWork from './pages/OurWork';
 import DealerApplication from './pages/DealerApplication';
@@ -369,7 +370,8 @@ export default function App() {
                 <Route path="/checkout" element={<Checkout />} />
                 
                 {/* Updated Admin Routes */}
-                <Route path="/admin/dealer" element={<Dealer />} />
+                {/* <Route path="/admin/dealer" element={<Dealer />} /> */}
+                <Route path="/admin/dealer/*" element={<Dealer />} />
                 <Route path="/admin/distributor" element={<Distributor />} />
                 <Route path="/admin/super-admin" element={<SuperAdmin />} />
                 
