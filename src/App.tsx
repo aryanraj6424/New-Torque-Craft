@@ -1,5 +1,3 @@
-
-
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom';
 import { ShoppingCart, User, Search, Menu, ShieldCheck, Gauge, Package, Settings, LogOut, ChevronRight, Facebook, Instagram, Twitter, Youtube, LogIn, ChevronDown, X, Award } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -370,10 +368,10 @@ export default function App() {
                 <Route path="/checkout" element={<Checkout />} />
                 
                 {/* Updated Admin Routes */}
-                {/* <Route path="/admin/dealer" element={<Dealer />} /> */}
+               
                 <Route path="/admin/dealer/*" element={<Dealer />} />
-                <Route path="/admin/distributor" element={<Distributor />} />
-                <Route path="/admin/super-admin" element={<SuperAdmin />} />
+                <Route path="/admin/distributor/*" element={<Distributor />} />
+                <Route path="/admin/super-admin/*" element={<SuperAdmin />} />
                 
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Signup />} />
@@ -389,6 +387,7 @@ export default function App() {
             <Footer />
           </div>
         </Router>
+        
       </CartProvider>
       </ProductProvider>
     </AuthProvider>

@@ -1,14 +1,15 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import DealerLayout from './DealerLayout';
 import Overview from './Overview';
-import Customers from './Customers';
-import Inventory from './Inventory';
 import OrderHistory from './OrderHistory';
-import PurchaseOrders from './PurchaseOrders';
-import Warranty from './Warranty';
-import Refunds from './Refunds';
+import Customers from './Customers';
+import QRVerifications from './QRVerifications';
+import RefundsWarranty from './RefundsWarranty';
+import Payments from './Payments';
+import Products from './Products';
 import Settings from './Settings';
-import DealerPayment from './DealerPayment';
+import Shipping from './Shipping';
+
 export default function Dealer() {
   return (
     <Routes>
@@ -23,12 +24,12 @@ export default function Dealer() {
         */}
         <Route path="overview" element={<Overview />} />
         <Route path="customers" element={<Customers />} />
-        <Route path="inventory" element={<Inventory />} />
-        <Route path="order-history" element={<OrderHistory />} />
-        <Route path="purchase-orders" element={<PurchaseOrders />} />
-        <Route path="warranty" element={<Warranty />} />
-        <Route path="refunds" element={<Refunds />} />
-        <Route path="payment" element={<DealerPayment />} />
+        <Route path="order-history" element={<OrderHistory />} /> 
+        <Route path="products" element={<Products />} />
+        <Route path="qr-verifications" element={<QRVerifications />} />
+        <Route path="refunds-warranty" element={<RefundsWarranty />} />
+        <Route path="payment" element={<Payments />} />
+        <Route path="shipping" element={<Shipping />} />
         <Route path="settings" element={<Settings />} />
       </Route>
     </Routes>
