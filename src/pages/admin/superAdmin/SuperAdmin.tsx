@@ -13,7 +13,7 @@ import UserRoleManagement from './UserRoleManagement';
 import RegionEngine from './RegionEngine';
 import FinancialClosure from './FinancialClosure';
 import AnalyticsReports from './AnalyticsReports';
-
+import Settings from './Settings';
 export default function SuperAdmin() {
   return (
     <Routes>
@@ -33,6 +33,7 @@ export default function SuperAdmin() {
         <Route path="regions" element={<RegionEngine />} />
         <Route path="finance" element={<FinancialClosure />} />
         <Route path="analytics" element={<AnalyticsReports />} />
+        <Route path="settings" element={<Settings />} />
       </Route>
     </Routes>
   );

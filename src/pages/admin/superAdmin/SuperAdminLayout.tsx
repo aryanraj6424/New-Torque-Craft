@@ -72,6 +72,7 @@ const navItems = [
     path: "/admin/super-admin/analytics", 
     icon: BarChart3 
   },
+  
 ];
 
 export default function SuperAdminLayout() {
