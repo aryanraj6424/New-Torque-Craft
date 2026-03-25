@@ -13,6 +13,7 @@ import {
   IndianRupee,
   BarChart3,
   Settings,
+  Megaphone,
 } from "lucide-react";
 import { cn } from "../../../lib/utils";
 
@@ -51,6 +52,11 @@ const navItems = [
     name: "Return & Warranty",
     path: "/admin/super-admin/returns-warranty",
     icon: RotateCcw,
+  },
+  {
+    name: "Marketing",
+    path: "/admin/super-admin//marketing",
+    icon: Megaphone, // Aap 'Target' ya 'Share2' bhi use kar sakte hain
   },
   {
     name: "User & Role",

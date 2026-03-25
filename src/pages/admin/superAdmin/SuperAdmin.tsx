@@ -14,6 +14,7 @@ import RegionEngine from './RegionEngine';
 import FinancialClosure from './FinancialClosure';
 import AnalyticsReports from './AnalyticsReports';
 import Settings from './Settings';
+import Marketing from './marketing/Marketing'
 export default function SuperAdmin() {
   return (
     <Routes>
@@ -29,6 +30,7 @@ export default function SuperAdmin() {
         <Route path="shipping" element={<ShippingEngine />} />
         <Route path="qr-system" element={<QRAuthenticity />} />
         <Route path="returns-warranty" element={<ReturnWarranty />} />
+        <Route path="marketing" element={<Marketing />} />
         <Route path="users-roles" element={<UserRoleManagement />} />
         <Route path="regions" element={<RegionEngine />} />
         <Route path="finance" element={<FinancialClosure />} />
